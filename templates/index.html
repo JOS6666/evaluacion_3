@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <title>Menú Principal</title>
+</head>
+<body>
+    <div class="wrapper">
+        <h1>Evaluación N°3</h1>
+        <div class="container">
+            <button onclick="location.href='{{ url_for('ejercicio1') }}'">Ejercicio 1</button>
+            <button onclick="location.href='{{ url_for('ejercicio2') }}'">Ejercicio 2</button>
+        </div>
+    </div>
+</body>
+</html>
